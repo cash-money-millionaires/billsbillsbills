@@ -1,6 +1,19 @@
 <footer>
-  <div class="container">
-    <p>&copy; HackerYou <?php echo date('Y'); ?></p>
+  <div class="container flexContainer">
+  <div class="copyright">
+    <p>&copy; cash money millionaires LLC <?php echo date('Y'); ?></p>
+    </div><!-- end copyright div -->
+
+	<ul class="socialLogos">
+
+    	<li><a href="#"> <i class="fa fa-twitter-square"></i></a></li>
+    	<li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
+    	<li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+    	<li><a href="#"><i class="fa fa-youtube-square"></i></a></li>
+    	<li><a href="#"><i class="fa fa-yelp"></i></a></li>
+
+    </ul>  <!-- end socialLogos -->
+
   </div>
 </footer>
 
