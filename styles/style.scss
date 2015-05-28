@@ -11,13 +11,14 @@ Author URI: http://hackeryou.com
 /* =============================================================================
                    Normalize, border box and clearfix
    ========================================================================== */
+@import "mixins";
 @import "comment";
 @import "defaultStyles";
 @import "blogPage";
 @import "footer";
 @import "navigation";
 @import "sidebar";
-@import "mixins";
+
 
 
 

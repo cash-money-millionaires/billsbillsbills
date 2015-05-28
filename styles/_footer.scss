@@ -7,7 +7,8 @@ footer {
   // position: fixed;
   // bottom:0;
   width: 100%;
-  background: grey;
+  background: $darkgrey;
+  color: whitesmoke;
 
   
 }
@@ -42,7 +43,8 @@ footer {
 
 .socialLogos i{
   padding: 0 5px;
-  color: black;
+  color: whitesmoke;
+
 }
 
 .socialLogos i:hover{

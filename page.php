@@ -5,7 +5,7 @@
 
 
     <div class="content">
-
+<p>I"M A PAGE</p>
     
       <?php // Start the loop ?>
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
