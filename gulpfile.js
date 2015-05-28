@@ -20,7 +20,7 @@ var gulp         = require('gulp'),
 
 // ==================== STYLE ==================== //
 
-var styleSrc   = '*.scss',
+var styleSrc   = 'styles/*.scss',
 	styleDest  = '.';
 
 gulp.task('styleSrc', function() {
