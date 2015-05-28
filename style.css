@@ -400,13 +400,41 @@ pre {
   border-radius: 4px;
   border: 1px solid #ccc; }
 
+.blogContainer {
+  width: 100%;
+  background-color: #8FCAFC;
+  font-family: 'Lora', serif;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  background-position: fixed; }
+  .blogContainer h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 3px 0px 2px rgba(150, 150, 150, 0.64); }
+  .blogContainer h2 a {
+    color: black;
+    font-family: 'Roboto', sans-serif; }
+  .blogContainer article {
+    border: 3px solid black;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 8px 4px rgba(0, 0, 0, 0.26); }
+  .blogContainer li {
+    list-style-type: none; }
+
 /* =============================================================================
                    Footer
    ========================================================================== */
 footer {
   clear: both;
   width: 100%;
-  background: grey; }
+  background: #424042;
+  color: whitesmoke; }
 
 .flexContainer {
   display: -webkit-box;
@@ -450,7 +478,7 @@ footer {
 
 .socialLogos i {
   padding: 0 5px;
-  color: black; }
+  color: whitesmoke; }
 
 .socialLogos i:hover {
   color: #8FCAFC;
