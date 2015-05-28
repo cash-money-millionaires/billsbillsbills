@@ -1,0 +1,14 @@
+$lgrey: #999D9E;
+$darkgrey: #424042;
+$blue: #8FCAFC;
+$turq: #20657C;
+$navy: #29313D;
+
+$robo: 'Roboto Condensed', sans-serif;
+$lora: 'Lora', serif;
+
+
+@mixin fzw($fz, $fw) {
+	font-size: $fz;
+	font-weight: $fw;
+}
