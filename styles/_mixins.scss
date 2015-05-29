@@ -12,3 +12,11 @@ $lora: 'Lora', serif;
 	font-size: $fz;
 	font-weight: $fw;
 }
+
+@mixin fzwButton{
+	font-size: 20px;
+	font-weight: 700;
+	font-family: $lora;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}

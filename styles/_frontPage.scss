@@ -1,0 +1,47 @@
+.frontWrapper{
+	background-image: url(img/src/skySkrapers.jpg);
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	text-align: center;
+	
+	// background-position: fixed;
+
+		h1{
+			font-size: 60px;
+			text-transform: uppercase;
+			letter-spacing: 8px;
+			font-weight: 400;
+		}
+}
+
+.frontButtons{
+	display: flex;
+	margin: auto;
+	// justify-content: space-between;
+
+	.personalButton, .bizButton{
+		display: flex;
+		margin: auto;
+		padding: 200px 0;
+		// flex: 1 0 auto;
+	}
+
+	.personalButton button,
+	.bizButton button{
+		padding: 20px 60px;
+		background-color: $turq;
+		@include fzwButton;
+		border-radius: 5px;
+		border:1px solid black;
+		-webkit-box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
+	  	-moz-box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
+	  	box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
+
+
+	}
+
+
+}
+

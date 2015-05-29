@@ -181,6 +181,45 @@ p.form-allowed-tags, .nocomments {
 #respond p, #comments-list ul #respond {
   margin: 0; }
 
+.frontWrapper {
+  background-image: url(img/src/skySkrapers.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  text-align: center; }
+  .frontWrapper h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: 400; }
+
+.frontButtons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto; }
+  .frontButtons .personalButton, .frontButtons .bizButton {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    padding: 200px 0; }
+  .frontButtons .personalButton button,
+  .frontButtons .bizButton button {
+    padding: 20px 60px;
+    background-color: #20657C;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Lora", serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 1px 4px 8px 4px rgba(0, 0, 0, 0.26); }
+
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
 
@@ -431,7 +470,7 @@ pre {
                    Footer
    ========================================================================== */
 footer {
-  clear: both;
+  bottom: 0;
   width: 100%;
   background: #424042;
   color: whitesmoke; }
