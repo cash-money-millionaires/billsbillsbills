@@ -7,8 +7,9 @@
 get_header();  ?>
 
 <div class="main">
-  <div class="container">
-  <p>SOME STUFF!!!!!!</p>
+<div class="frontWrapper">
+ 
+  <h1>Johnson's Accounting</h1>
 
     <?php // Start the loop ?>
     <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
@@ -17,7 +18,11 @@ get_header();  ?>
       <?php the_content(); ?>
 
     <?php endwhile; // end the loop?>
-  </div> <!-- /.container -->
+
+   
+    </div>
+ 
 </div> <!-- /.main -->
 
 <?php get_footer(); ?>
+
