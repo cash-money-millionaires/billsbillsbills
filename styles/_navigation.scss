@@ -2,18 +2,72 @@
 /* =============================================================================
                    Navigation
    ========================================================================== */
-
+header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px auto;
+	h1 {
+		font-family: $robo;
+		a {
+			border: 5px solid $navy;
+			padding: 10px;
+			color: $navy;
+			letter-spacing: 2px;
+		}
+	}
+}
 
 ul.menu {
- margin: 0;
- padding: 0; }
+	@include fzw (20px, 700);
+	letter-spacing: 2px;
+	font-family: $robo;
+	margin: 0;
+	padding: 0; 
+	text-transform: uppercase;
+	display: flex;
+	justify-content: flex-end;
+}
 
 ul.menu li {
- display: inline;
- margin-right: 10px; }
+	 display: inline;
+	 margin-right: 20px;
+	 position: relative; 
+}
 
 ul.menu li a {
- color: #333;
- padding: 10px;
- background: #333;
- color: white; }
+	 //color: #333;
+	 padding: 10px;
+	 // background: $navy;
+	 color: $navy; 
+	 border-bottom: 5px solid $navy;
+}
+
+ul.menu li ul.sub-menu {
+	@include fzw (16px, 700);
+	position: absolute;
+	display: none;
+	margin: 2px 0px;
+	padding: 2px 0px;
+	left: 0;	
+ }
+ul.menu li:hover ul.sub-menu {
+	display: block;
+	a {
+		display: block;
+		//background: $lgrey;
+		color: $blue;
+		width: 160px;
+		margin-top: 2px;
+		margin-bottom: 5px;
+		border: 0;
+		padding: 1px;
+	}
+	a:hover {
+		//background: $turq;
+		color: $turq;
+	}
+}
+
+
+
