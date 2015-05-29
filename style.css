@@ -526,19 +526,76 @@ footer {
 /* =============================================================================
                    Navigation
    ========================================================================== */
+header .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px auto; }
+  header .container h1 {
+    font-family: "Roboto Condensed", sans-serif; }
+    header .container h1 a {
+      border: 5px solid #29313D;
+      padding: 10px;
+      color: #29313D;
+      letter-spacing: 2px; }
+
 ul.menu {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "Roboto Condensed", sans-serif;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
 
 ul.menu li {
   display: inline;
-  margin-right: 10px; }
+  margin-right: 20px;
+  position: relative; }
 
 ul.menu li a {
-  color: #333;
   padding: 10px;
-  background: #333;
-  color: white; }
+  color: #29313D;
+  border-bottom: 5px solid #29313D; }
+
+ul.menu li ul.sub-menu {
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  display: none;
+  margin: 2px 0px;
+  padding: 2px 0px;
+  left: 0; }
+
+ul.menu li:hover ul.sub-menu {
+  display: block; }
+  ul.menu li:hover ul.sub-menu a {
+    display: block;
+    color: #8FCAFC;
+    width: 160px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    border: 0;
+    padding: 1px; }
+  ul.menu li:hover ul.sub-menu a:hover {
+    color: #20657C; }
 
 /* =============================================================================
                    Sidebar
