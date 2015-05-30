@@ -16,7 +16,15 @@ $lora: 'Lora', serif;
 @mixin fzwButton{
 	font-size: 20px;
 	font-weight: 700;
-	font-family: $robo;
+	// font-family: $robo;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
+
+@mixin fzwInnerTitle{
+	font-size: 40px;
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+}
+

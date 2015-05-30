@@ -47,9 +47,49 @@
 
 }
 
-.blogFront article{
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
+.blogFrontWrapper{
+	display: flex;
+	margin: auto;
+	flex: 1 0 auto;
+	justify-content: space-around;
+	background-color: $navy;
+	padding: 100px;
+
+	h2{
+		@include fzwInnerTitle;
+		text-align: center;
+	}
+
+	.basic-layout .lptw-post-title{
+		font-size: 30px;
+		text-transform: uppercase;
+		color: black;
+		border:1px solid black;
+		font-family: $robo;
+	}
+	
 }
+
+
+
+
+
+
+// .blogFront article{
+// 	width: 100%;
+// 	margin: 0 auto;
+// 	text-align: center;
+// 	display: flex;
+	
+// }
+
+
+// }
+
+// .blogFront2 article{
+// 	text-align: center;
+// 	width: 100%;
+// 	margin: 0 auto;
+// 	display: flex;
+// }
 

@@ -215,17 +215,42 @@ p.form-allowed-tags, .nocomments {
     background-color: #20657C;
     font-size: 20px;
     font-weight: 700;
-    font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
     border-radius: 5px;
     border: 1px solid black;
     box-shadow: 1px 4px 8px 4px rgba(0, 0, 0, 0.26); }
 
-.blogFront article {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center; }
+.blogFrontWrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  background-color: #29313D;
+  padding: 100px; }
+  .blogFrontWrapper h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    text-align: center; }
+  .blogFrontWrapper .basic-layout .lptw-post-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+    border: 1px solid black;
+    font-family: "Roboto Condensed", sans-serif; }
+
+.testWrapper {
+  color: yellow; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
