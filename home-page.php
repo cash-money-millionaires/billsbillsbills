@@ -41,15 +41,26 @@ get_header();  ?>
    
     
     </div>
-
+<div class="blogFrontWrapper">
   <div class="blogFront">
 
-<?php echo do_shortcode('[lptw_recentposts layout="basic" post_type="post" fluid_images="false"columns="2" posts_per_page="2" reverse_post_order="false" thumbnail_size="medium" color_scheme="no-overlay" background_color="#ffffff" text_color="#000000" show_date_before_title="true" show_date="false" show_time="false" show_time_before="false" date_format="F j, Y" time_format="g:i a" no_thumbnails="show"]'); ?>
-  
+  <h2>From the Blog</h2>
 
-    </div> <!-- Blog front -->
+<?php echo do_shortcode('[lptw_recentposts layout="basic" post_type="post" category_id="4,3" 
+fluid_images="true" posts_per_page="2" reverse_post_order="false"
+ thumbnail_size="full" color_scheme="no-overlay" background_color="#4CAF50"
+  text_color="#ffffff" show_date_before_title="true"
+   show_date="true" show_time="true"
+    show_time_before="true" date_format="F j, Y" 
+    time_format="g:i a" no_thumbnails="show"]'); ?>
+</div>
 
 
+    <!-- Blog front -->
+
+</div>
+
+<!-- blogWrapper -->
     <div class="contactForm">
 
      <?php echo do_shortcode( '[contact-form-7 id="4" title="Contact form 1"]' ); ?>

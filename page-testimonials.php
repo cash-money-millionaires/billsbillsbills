@@ -3,20 +3,18 @@
 /*
   Template Name:Testimonials, Full Page, No Sidebar
 */
-
-get_header();  ?>
-
-<div class="main">
-  <div class="container">
+get_header(); ?>
 
 
-    <div class="content">
-<p>I"M A PAGE</p>
 
-<?php echo do_shortcode("[contact-form-7 id="4" title="Contact form 1"]"); ?>
+<!-- <div class="main"> -->
+  
+<div class="testWrapper">
+
+
     
       <?php // Start the loop ?>
-      <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+      <?php if  ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
         <h2><?php the_title(); ?></h2>
         <?php the_content(); ?>
@@ -26,7 +24,10 @@ get_header();  ?>
 
     <?php get_sidebar(); ?>
 
-  </div> <!-- /.container -->
-</div> <!-- /.main -->
+  
+  </div><!-- end testwrapper -->
+
+<!-- </div>  -->
+<!-- /.main -->
 
 <?php get_footer(); ?>
