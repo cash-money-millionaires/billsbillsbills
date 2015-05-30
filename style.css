@@ -185,9 +185,11 @@ p.form-allowed-tags, .nocomments {
   background-image: url(img/src/skySkrapers.jpg);
   background-size: cover;
   height: 100vh;
+  padding: 20px;
   background-repeat: no-repeat;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  background-attachment: fixed; }
   .frontWrapper h1 {
     font-size: 60px;
     text-transform: uppercase;
@@ -213,12 +215,17 @@ p.form-allowed-tags, .nocomments {
     background-color: #20657C;
     font-size: 20px;
     font-weight: 700;
-    font-family: "Lora", serif;
+    font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
     border-radius: 5px;
     border: 1px solid black;
     box-shadow: 1px 4px 8px 4px rgba(0, 0, 0, 0.26); }
+
+.blogFront article {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
