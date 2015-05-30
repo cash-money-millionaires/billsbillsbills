@@ -28,3 +28,18 @@ $lora: 'Lora', serif;
 	text-transform: uppercase;
 }
 
+@mixin fzwFormButton{
+	font-size: 20px;
+	font-weight: 700;
+	font-family: $robo;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	border-radius: 5px;
+		border:1px solid black;
+		padding: 20px 75px;
+	-webkit-box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
+	  	-moz-box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
+	  	box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
+
+}
+
