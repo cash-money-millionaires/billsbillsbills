@@ -36,9 +36,6 @@ img.alignright    { padding-left: 5px; }
 
 body {
   color:#333;
-
-
-
 }
 
 .container {
@@ -55,20 +52,14 @@ body {
 
 }
 
-
-
 .full {
   width:100%;
 }
 
 /* links */
 a {
-  color:#BA209B;
+  color: $navy;
   text-decoration: none;
-}
-
-a:hover {
-  color: #D424B1;
 }
 
 /* paragraphs */
@@ -106,7 +97,7 @@ dd {
 
 /*lists*/
 ul li,ol li {
-  padding:3px;
+  padding: 0;
 }
 
 /*PRE*/

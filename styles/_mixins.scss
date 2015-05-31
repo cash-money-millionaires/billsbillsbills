@@ -43,3 +43,10 @@ $lora: 'Lora', serif;
 
 }
 
+@mixin UpCen($ls) {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px auto;
+	letter-spacing: $ls;
+	font-family: $robo;
+}
