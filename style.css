@@ -323,9 +323,6 @@ p.form-allowed-tags, .nocomments {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-.testWrapper {
-  color: yellow; }
-
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
 
@@ -499,11 +496,8 @@ body {
 
 /* links */
 a {
-  color: #BA209B;
+  color: #29313D;
   text-decoration: none; }
-
-a:hover {
-  color: #D424B1; }
 
 /* paragraphs */
 p {
@@ -536,7 +530,7 @@ dd {
 
 /*lists*/
 ul li, ol li {
-  padding: 3px; }
+  padding: 0; }
 
 /*PRE*/
 pre {
@@ -544,6 +538,46 @@ pre {
   padding: 10px;
   border-radius: 4px;
   border: 1px solid #ccc; }
+
+.category {
+  font-family: "Lora", serif; }
+
+.category h2, .cate-title {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px auto;
+  letter-spacing: 2px;
+  font-family: "Roboto Condensed", sans-serif; }
+
+.category .content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 100%; }
+
+.category .content .post {
+  background: #999D9E;
+  width: 40%;
+  margin: 10px;
+  padding: 0 20px; }
+  .category .content .post img {
+    width: 30%;
+    height: 30%;
+    margin-right: 10px; }
+  .category .content .post h2, .category .content .post a {
+    margin: 0;
+    margin-top: 15px;
+    color: #29313D; }
+  .category .content .post p {
+    margin-top: 10px; }
 
 .blogContainer {
   width: 100%;
@@ -652,7 +686,8 @@ header .container {
       border: 5px solid #29313D;
       padding: 10px;
       color: #29313D;
-      letter-spacing: 2px; }
+      letter-spacing: 2px;
+      text-transform: uppercase; }
 
 ul.menu {
   font-size: 20px;
@@ -677,7 +712,7 @@ ul.menu li {
   position: relative; }
 
 ul.menu li a {
-  padding: 10px;
+  padding-bottom: 7px;
   color: #29313D;
   border-bottom: 5px solid #29313D; }
 
@@ -694,14 +729,81 @@ ul.menu li:hover ul.sub-menu {
   display: block; }
   ul.menu li:hover ul.sub-menu a {
     display: block;
-    color: #8FCAFC;
+    background: #999D9E;
+    color: white;
     width: 160px;
-    margin-top: 2px;
-    margin-bottom: 5px;
     border: 0;
-    padding: 1px; }
+    padding: 5px;
+    margin: 0; }
   ul.menu li:hover ul.sub-menu a:hover {
-    color: #20657C; }
+    color: #8FCAFC; }
+
+/* =============================================================================
+                   STICKYYYYYYY Navigation
+   ========================================================================== */
+#thsp-sticky-header {
+  box-shadow: 0px 0px 10px 0px #ddd; }
+
+#thsp-sticky-header-title {
+  margin-top: 10px; }
+  #thsp-sticky-header-title a {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    border: 3px solid #000;
+    padding: 7px;
+    letter-spacing: 2px;
+    top: 8px;
+    position: absolute; }
+
+.reso-wrapper {
+  margin: 0 auto;
+  text-align: center; }
+  .reso-wrapper h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px auto;
+    letter-spacing: 2px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 40px;
+    font-weight: 700; }
+  .reso-wrapper p {
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px; }
+
+.reso-pages-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .reso-pages-wrap .reso-pages {
+    width: 30%;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #29313D; }
+    .reso-pages-wrap .reso-pages h2 {
+      text-transform: uppercase;
+      text-align: center;
+      margin: 15px auto;
+      letter-spacing: 2px;
+      font-family: "Roboto Condensed", sans-serif;
+      margin-top: 5px; }
+      .reso-pages-wrap .reso-pages h2 a {
+        color: #29313D; }
+    .reso-pages-wrap .reso-pages p {
+      font-family: "Lora", serif; }
+    .reso-pages-wrap .reso-pages img {
+      display: block;
+      padding-bottom: 10px; }
 
 /* =============================================================================
                    Sidebar
