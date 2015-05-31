@@ -235,7 +235,7 @@ p.form-allowed-tags, .nocomments {
       -ms-flex-pack: distribute;
           justify-content: space-around;
   background-color: #29313D;
-  padding: 100px; }
+  padding: 50px; }
   .blogFrontWrapper h2 {
     font-size: 40px;
     font-weight: 700;
@@ -252,6 +252,7 @@ p.form-allowed-tags, .nocomments {
 .contactForm {
   width: 100%;
   margin: 0 auto;
+  padding: 50px;
   text-align: center;
   background-color: #999D9E;
   background-image: url(img/src/googlmapimageopac.png);
@@ -299,6 +300,7 @@ p.form-allowed-tags, .nocomments {
   display: -ms-flexbox;
   display: flex;
   margin: auto;
+  padding: 40px 0 20px 0;
   -webkit-box-flex: 1;
   -webkit-flex: 1 0 auto;
       -ms-flex: 1 0 auto;
@@ -307,8 +309,7 @@ p.form-allowed-tags, .nocomments {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  width: 100%;
-  padding-top: 20px; }
+  width: 100%; }
   .moreContact h3 {
     color: white; }
 
@@ -325,6 +326,20 @@ p.form-allowed-tags, .nocomments {
 
 .testWrapper {
   color: yellow; }
+
+.contactMain {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0; }
+
+.contactFormPageForm {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center; }
+  .contactFormPageForm h1 {
+    font-size: 40px;
+    text-transform: uppercase; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
@@ -547,14 +562,18 @@ pre {
 
 .blogContainer {
   width: 100%;
-  background-color: #8FCAFC;
+  background-color: ghostwhite;
   font-family: 'Lora', serif;
   margin: 0 auto;
   text-align: center;
   padding: 10px;
-  background-position: fixed; }
+  background-position: fixed;
+  background-image: url(img/src/desk2.jpg);
+  background-attachment: fixed; }
   .blogContainer h1 {
     font-size: 60px;
+    color: ghostwhite;
+    font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     text-shadow: 3px 0px 2px rgba(150, 150, 150, 0.64); }
   .blogContainer h2 a {
@@ -564,7 +583,7 @@ pre {
     border: 3px solid black;
     width: 80%;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 120px;
     background-color: whitesmoke;
     padding: 20px;
     border-radius: 5px;
