@@ -1,0 +1,38 @@
+.reso-wrapper {
+	margin: 0 auto;
+	text-align: center;
+	h2 {
+		@include UpCen(2px);
+		@include fzw(40px, 700);
+	}
+	p {
+		width: 60%;
+		margin: 20px auto;
+		padding: 10px;
+	}
+}
+.reso-pages-wrap {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	.reso-pages {
+		width: 30%;
+		margin: 10px;
+		padding: 15px;
+		border: 2px solid $navy;
+		h2 {
+			@include UpCen(2px);
+			margin-top: 5px;
+			a {
+				color: $navy;
+			}
+		}
+		p {
+			font-family: $lora;
+		}
+		img {
+			display: block;
+			padding-bottom: 10px;
+		}
+	}
+}
