@@ -53,17 +53,45 @@ fluid_images="true" posts_per_page="2" reverse_post_order="false"
    show_date="true" show_time="true"
     show_time_before="true" date_format="F j, Y" 
     time_format="g:i a" no_thumbnails="show"]'); ?>
-</div>
 
-
-    <!-- Blog front -->
+</div>  <!-- Blog front -->
 
 </div>
 
 <!-- blogWrapper -->
     <div class="contactForm">
 
+    <h1>Contact Us</h1>
+
      <?php echo do_shortcode( '[contact-form-7 id="4" title="Contact form 1"]' ); ?>
+
+
+<div class="moreContact">
+<div class="address">
+  <h3>Our Address:</h3>
+    <p>483 Queen St. W</p>
+    <p>3rd floor</p>
+    <p>Toronto, ON</p>
+    <p>M5V 2A9</p>
+
+
+</div>  <!-- end div.address -->
+
+<div class="phone">
+
+<p><span>E-mail:</span> </p>
+<p>accounting@fakemail.com</p>
+<p><span>Phone:</span> </p>
+<p>416-666-6666</p>
+  
+
+
+</div>
+<!-- end div.phone -->
+ 
+
+</div> <!-- end more contact info -->
+
 </div> <!-- contact form -->
 
  

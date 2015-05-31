@@ -249,6 +249,80 @@ p.form-allowed-tags, .nocomments {
     border: 1px solid black;
     font-family: "Roboto Condensed", sans-serif; }
 
+.contactForm {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #999D9E;
+  background-image: url(img/src/googlmapimageopac.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column; }
+  .contactForm h1 {
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 5px; }
+  .contactForm p {
+    color: white;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 5px;
+    margin: 10px; }
+  .contactForm input {
+    padding: 10px; }
+  .contactForm textarea {
+    margin: 5px; }
+  .contactForm input[type=submit] {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 20px 75px;
+    box-shadow: 1px 4px 8px 4px rgba(0, 0, 0, 0.26); }
+
+.moreContact {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  width: 100%;
+  padding-top: 20px; }
+  .moreContact h3 {
+    color: white; }
+
+.address, .phone {
+  width: 30%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
 .testWrapper {
   color: yellow; }
 

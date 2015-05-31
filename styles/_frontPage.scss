@@ -47,6 +47,8 @@
 
 }
 
+// BLOG SECTION**************************
+
 .blogFrontWrapper{
 	display: flex;
 	margin: auto;
@@ -71,7 +73,75 @@
 }
 
 
+// CONTACT FORM **********************
 
+.contactForm{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: $lgrey;
+	background-image: url(img/src/googlmapimageopac.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-height:100vh; 
+	display: flex;
+	flex-flow: column;
+
+		h1{
+			font-size: 40px;
+			color: white;
+			text-transform: uppercase;
+			font-family: $robo;
+			letter-spacing: 5px;
+
+		}
+		p{
+			color: white;
+			padding: 0;
+			margin: 0;
+			letter-spacing: 5px;
+			margin: 10px;
+		}
+		input{
+			padding: 10px;
+		}
+
+
+		textarea{
+			margin: 5px;
+		}
+		input[type=submit]{
+			@include fzwFormButton;
+
+		}
+}
+
+// CONTACTIN INFO********************
+
+.moreContact{
+	display: flex;
+	margin: auto;
+
+	flex: 1 0 auto;
+	align-items: stretch;
+	width: 100%;
+	padding-top:20px;
+
+	h3{
+		color: white;
+	}
+
+}
+
+.address, .phone{
+	width: 30%;
+	flex: 1 0 auto;
+	justify-content: space-between;
+
+
+
+}
 
 
 
