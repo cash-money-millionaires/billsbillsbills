@@ -64,6 +64,8 @@
 	flex: 1 0 auto;
 	justify-content: space-around;
 	background-color: $lgrey;
+	background-image: url(img/src/footer_lodyas.png);
+	background-attachment: fixed;
 	padding: 50px;
 
 
@@ -144,7 +146,7 @@
 			margin: 5px;
 		}
 		input[type=submit]{
-			background-color: hsla(192, 1%, 50%, 0.85);
+			
 			@include fzwFormButton;
 
 
@@ -185,10 +187,49 @@
 	justify-content: space-between;
 	
 
+}
 
+// Media Query*********************************
+
+@media (max-width: 680px) {
 
 }
 
+/* Landscape phone to portrait tablet */
+@media (max-width: 580px) {
+	.frontButtons{
+		margin:auto;
+		flex-flow: column;
+		padding:20px;
+	}
+
+	.frontButtons .personalButton, 
+	.frontButtons .bizButton{
+
+		padding:30px;
+	}
+
+	.moreContact{
+		margin: auto;
+		flex-flow:column;
+	}
+
+	.address, .phone{
+		margin: auto;
+		width: 100%;
+		padding:20px;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+	.contactFormFront{
+		width: 100%;
+		margin: auto;
+		padding:0;
+	}
+}
 
 
 

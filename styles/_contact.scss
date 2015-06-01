@@ -2,7 +2,11 @@
 	width: 100%;
 	margin:0 auto;
 	text-align: center;
+<<<<<<< HEAD
+	// padding-top: 50px;
+=======
 	//padding-top: 50px;
+>>>>>>> 40fe061fea99387b37ece4afb44379fdb2a2d7a0
 	text-transform: uppercase;
 	background: $lgrey;
 
@@ -122,10 +126,14 @@ input[type=submit]:hover{
 		i{
 			font-size: 50px;
 			padding: 10px;
+			transition: all .3s;
+
 		}
 
 		i:hover{
 			color:$blue;
+			font-size: 55px;
+
 		}
 
 }
@@ -135,3 +143,108 @@ input[type=submit]:hover{
 	flex: 1 0 auto;
 	margin: auto;
 }
+
+// MEDIA QUERY***************************
+
+/* Portrait tablet and small desktops */
+@media (max-width: 965px) {
+	.moreContactPage{
+		background-color: white;
+		display: flex;
+		text-align: center;
+		margin-left:300px;
+		flex-flow:column;
+		// padding: 50px 0 20px 0;
+		flex: 1 0 auto;
+		// align-items: stretch;
+		width: 100%;
+		flex-wrap:wrap;
+		margin: auto;
+
+		
+	}
+
+
+
+	.addressContactPage, .hoursContactPage,
+.phoneContactPage{
+	width:100%;
+	padding: 40px 0;
+	margin: auto;
+}
+
+.socialContacts{
+	text-align: left;
+	display: flex;
+	flex-flow:column;
+	flex: 1 0 auto;
+	margin: auto;
+	// margin: 0 0 0 50px;
+	}
+
+.socialContactsIcons{
+	text-align: justify;
+	display: flex;
+	flex-flow:column;
+	// margin: 0 0 0 50px;
+	margin: auto;
+
+}
+
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	.moreContactPage{
+		// margin-left:150px;
+		width: 45%;
+		margin:auto;
+
+	}
+	iframe{
+		display: flex;
+		margin: auto;
+		text-align: left;
+		// width:100%;
+	}
+
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.moreContactPage{
+		// margin-left:75px;
+		width: 100%;
+		margin: auto;
+
+
+	}
+
+
+	.socialContactsIcons{
+		margin:auto;
+		
+	}
+
+	.socialContactsIcons h3{
+		margin-left:20px;
+	}
+
+	.hoursContactPage{
+		width: 100%;
+		margin: auto;
+
+	}
+
+	.phoneContactPage{
+		width: 100%;
+		margin:auto;
+	}
+
+
+}
+
+

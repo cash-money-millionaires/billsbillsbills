@@ -1,0 +1,30 @@
+.singleWrapper{
+	width: 100%;
+	 background-image: url(img/src/desk2.jpg);
+	  background-attachment: fixed;
+
+
+}
+
+.singleContent{
+	width: 75%;
+
+	margin: 0 auto;
+	padding:20px;
+	color: white;
+	font-family: $robo;
+	
+	background-color: hsla(0, 5%, 50%, 0.9);
+
+}
+.singleComments{
+	width: 75%;
+	margin: 0 auto;
+
+#respond .form-submit{
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0 10px 0;
+}
+
+}

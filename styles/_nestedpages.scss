@@ -5,6 +5,12 @@
 		@include UpCen(2px);
 		@include fzw(40px, 700);
 		padding: 20px;
+<<<<<<< HEAD
+	}
+	p {
+		font-family: $lora;
+		padding: 10px;
+=======
 		//margin: 20px;
 	}
 	p {
@@ -14,5 +20,6 @@
 	}
 	p:last-child {
 		margin-bottom: 40px;
+>>>>>>> 40fe061fea99387b37ece4afb44379fdb2a2d7a0
 	}
 }
