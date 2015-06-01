@@ -9,7 +9,8 @@ get_header();  ?>
 <div class="main">
 <div class="frontWrapper">
  
-  <h1>Johnson's Accounting</h1>
+  <h1>CASH MONEY</h1>
+  <h1>MILLIONAIRES</h1>
 
   
 

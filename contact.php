@@ -30,8 +30,7 @@ get_header();  ?>
 
 <div class="contactFormPlace">
 
- <?php echo do_shortcode( '[contact-form-7 id="106" 
- title="Contact Page Form"]' ); ?>
+ <?php echo do_shortcode( '[contact-form-7 id="4" title="Contact form 1"]' ); ?>
 
  </div> <!-- contact form placement -->
 
