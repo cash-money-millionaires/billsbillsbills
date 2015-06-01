@@ -1,5 +1,5 @@
 <footer>
-  <div class="container flexContainer">
+  <div class="footerContainer flexContainer">
   <div class="copyright">
     <p>&copy; cash money millionaires LLC <?php echo date('Y'); ?></p>
     </div><!-- end copyright div -->

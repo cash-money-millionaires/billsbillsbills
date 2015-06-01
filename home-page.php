@@ -46,13 +46,20 @@ get_header();  ?>
 
   <h2>From the Blog</h2>
 
-<?php echo do_shortcode('[lptw_recentposts layout="basic" post_type="post" category_id="4,3" 
-fluid_images="true" posts_per_page="2" reverse_post_order="false"
- thumbnail_size="full" color_scheme="no-overlay" background_color="#4CAF50"
-  text_color="#ffffff" show_date_before_title="true"
-   show_date="true" show_time="true"
-    show_time_before="true" date_format="F j, Y" 
-    time_format="g:i a" no_thumbnails="show"]'); ?>
+<?php echo do_shortcode('[lptw_recentposts layout="basic" 
+post_type="post" category_id="4,3" 
+fluid_images="true" posts_per_page="2" 
+reverse_post_order="false" 
+thumbnail_size="large" 
+color_scheme="no-overlay" 
+background_color="#4CAF50" 
+text_color="#ffffff" show_date_before_title="true" 
+show_date="true" show_time="true" 
+show_time_before="false" date_format="F j, 
+Y" time_format="H:i" no_thumbnails="show"]'); ?>
+
+
+
 
 </div>  <!-- Blog front -->
 
@@ -79,7 +86,7 @@ fluid_images="true" posts_per_page="2" reverse_post_order="false"
 
 <div class="phone">
 
-<p><span>E-mail:</span> </p>
+<h3>E-mail:</h3>
 <p>accounting@fakemail.com</p>
 <p><span>Phone:</span> </p>
 <p>416-666-6666</p>

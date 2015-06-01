@@ -2,6 +2,7 @@
 	background-image: url(img/src/skySkrapers.jpg);
 	background-size: cover;
 	height: 100vh;
+	background-height: 100vh;
 	padding: 20px;
 	background-repeat: no-repeat;
 	margin: 0 auto;
@@ -26,22 +27,30 @@
 	.personalButton, .bizButton{
 		display: flex;
 		margin: auto;
-		padding: 200px 0;
+		padding: 100px 0;
 		// flex: 1 0 auto;
 	}
 
 	.personalButton button,
 	.bizButton button{
 		padding: 20px 60px;
-		background-color: $turq;
+		background-color: hsla(192, 1%, 50%, 0.85);
 		@include fzwButton;
 		border-radius: 5px;
 		border:1px solid black;
 		-webkit-box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
 	  	-moz-box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
 	  	box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
+	  	transition: all 1s;
 
 
+	}
+
+	.personalButton button:hover,
+	.bizButton button:hover{
+		color:ghostwhite;
+		border:1px solid white;
+		font-weight: 400;
 	}
 
 
@@ -54,12 +63,15 @@
 	margin: auto;
 	flex: 1 0 auto;
 	justify-content: space-around;
-	background-color: $navy;
+	background-color: $lgrey;
 	padding: 50px;
+
 
 	h2{
 		@include fzwInnerTitle;
 		text-align: center;
+		letter-spacing: 5px;
+
 	}
 
 	.basic-layout .lptw-post-title{
@@ -68,7 +80,26 @@
 		color: black;
 		border:1px solid black;
 		font-family: $robo;
+		padding: 10px;
 	}
+
+	article{
+	  	
+	  	border: 3px solid black;
+	  	// border-bottom: 3px solid black;
+	  	// width: 80%;
+	  	margin:0 auto;
+	  	margin-top: 75px;
+	  	// background-color: whitesmoke;
+	  	// padding: 10px;
+	  	border-radius: 5px;
+	  	-webkit-box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
+	  	-moz-box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
+	  	box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
+
+	
+		
+	  }
 	
 }
 
@@ -113,8 +144,17 @@
 			margin: 5px;
 		}
 		input[type=submit]{
+			background-color: hsla(192, 1%, 50%, 0.85);
 			@include fzwFormButton;
 
+
+
+		}
+
+		input[type=submit]:hover{
+			color:ghostwhite;
+			border:1px solid white;
+			font-weight: 400;
 		}
 }
 
@@ -128,8 +168,13 @@
 	align-items: stretch;
 	width: 100%;
 
+
+
+
 	h3{
 		color: white;
+		letter-spacing: 5px;
+		text-transform: uppercase;
 	}
 
 }
