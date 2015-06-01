@@ -24,7 +24,7 @@
       </h2>
 
 			<section class="entry-content">
-				<?php the_content('Continue reading <span class="meta-nav">&rarr;</span>'); ?>
+				<?php the_excerpt('Continue reading <span class="meta-nav">&rarr;</span>'); ?>
 				<?php wp_link_pages( array(
           'before' => '<div class="page-link"> Pages:',
           'after' => '</div>'

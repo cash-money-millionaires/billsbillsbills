@@ -1,0 +1,18 @@
+.nestedpage {
+	width: 70%;
+	margin: 0 auto;
+	h2 {
+		@include UpCen(2px);
+		@include fzw(40px, 700);
+		padding: 20px;
+		//margin: 20px;
+	}
+	p {
+		font-family: $robo;
+		padding: 10px;
+		@include fzw(20px, 400);
+	}
+	p:last-child {
+		margin-bottom: 40px;
+	}
+}

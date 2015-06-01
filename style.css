@@ -354,7 +354,7 @@ p.form-allowed-tags, .nocomments {
           justify-content: space-between; }
 
 .category {
-  font-family: "Lora", serif; }
+  font-family: "Roboto Condensed", sans-serif; }
 
 .category h2, .cate-title {
   text-transform: uppercase;
@@ -378,7 +378,7 @@ p.form-allowed-tags, .nocomments {
   width: 100%; }
 
 .category .content .post {
-  background: #999D9E;
+  background: #20657C;
   width: 40%;
   margin: 10px;
   padding: 0 20px; }
@@ -391,14 +391,15 @@ p.form-allowed-tags, .nocomments {
     margin-top: 15px;
     color: #29313D; }
   .category .content .post p {
-    margin-top: 10px; }
+    margin-top: 10px;
+    color: white; }
 
 .contactMain {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  padding-top: 50px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  background: #999D9E; }
 
 .contactFormPageForm {
   width: 100%;
@@ -679,7 +680,8 @@ img.alignright {
                    Default Styling
    ========================================================================== */
 body {
-  color: #333; }
+  color: #333;
+  font-family: "Roboto Condensed", sans-serif; }
 
 .container {
   max-width: 1200px;
@@ -739,7 +741,7 @@ pre {
   border: 1px solid #ccc; }
 
 .category {
-  font-family: "Lora", serif; }
+  font-family: "Roboto Condensed", sans-serif; }
 
 .category h2, .cate-title {
   text-transform: uppercase;
@@ -763,7 +765,7 @@ pre {
   width: 100%; }
 
 .category .content .post {
-  background: #999D9E;
+  background: #20657C;
   width: 40%;
   margin: 10px;
   padding: 0 20px; }
@@ -776,12 +778,13 @@ pre {
     margin-top: 15px;
     color: #29313D; }
   .category .content .post p {
-    margin-top: 10px; }
+    margin-top: 10px;
+    color: white; }
 
 .blogContainer {
   width: 100%;
   background-color: ghostwhite;
-  font-family: 'Lora', serif;
+  font-family: "Roboto Condensed", sans-serif;
   margin: 0 auto;
   text-align: center;
   padding: 10px;
@@ -801,7 +804,7 @@ pre {
     border: 3px solid black;
     width: 80%;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 80px;
     background-color: whitesmoke;
     padding: 20px;
     border-radius: 5px;
@@ -837,7 +840,8 @@ footer {
   -webkit-box-flex: 1;
   -webkit-flex: 1 0 auto;
       -ms-flex: 1 0 auto;
-          flex: 1 0 auto; }
+          flex: 1 0 auto;
+  padding: 0 10px; }
 
 .socialLogos {
   list-style: none;
@@ -859,7 +863,7 @@ footer {
   margin: auto; }
 
 .socialLogos i {
-  padding: 0 5px;
+  padding: 0 10px;
   color: whitesmoke; }
 
 .socialLogos i:hover {
@@ -913,6 +917,8 @@ ul.menu li {
   display: inline;
   margin-right: 20px;
   position: relative; }
+  ul.menu li a:hover {
+    border-bottom: 5px solid #8FCAFC; }
 
 ul.menu li a {
   padding-bottom: 7px;
@@ -974,7 +980,8 @@ ul.menu li:hover ul.sub-menu {
   .reso-wrapper p {
     width: 60%;
     margin: 20px auto;
-    padding: 10px; }
+    padding: 10px;
+    font-family: "Roboto Condensed", sans-serif; }
 
 .reso-pages-wrap {
   display: -webkit-box;
@@ -1003,10 +1010,30 @@ ul.menu li:hover ul.sub-menu {
       .reso-pages-wrap .reso-pages h2 a {
         color: #29313D; }
     .reso-pages-wrap .reso-pages p {
-      font-family: "Lora", serif; }
+      font-family: "Roboto Condensed", sans-serif; }
     .reso-pages-wrap .reso-pages img {
       display: block;
       padding-bottom: 10px; }
+
+.nestedpage {
+  width: 70%;
+  margin: 0 auto; }
+  .nestedpage h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px auto;
+    letter-spacing: 2px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px; }
+  .nestedpage p {
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400; }
+  .nestedpage p:last-child {
+    margin-bottom: 40px; }
 
 /* =============================================================================
                    Sidebar

@@ -1,5 +1,5 @@
 .category {
-	font-family: $lora;
+	font-family: $robo;
 }
 
 .category h2, .cate-title {
@@ -14,7 +14,7 @@
 }
 
 .category .content .post {
-	background: $lgrey;
+	background: $turq;
 	width: 40%;
 	margin: 10px;
 	padding: 0 20px;
@@ -30,5 +30,6 @@
 	}
 	p {
 		margin-top: 10px;
+		color: white;
 	}
 }
