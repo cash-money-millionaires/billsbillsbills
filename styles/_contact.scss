@@ -1,17 +1,136 @@
 .contactMain{
 	width: 100%;
-	height: 100vh;
-	padding: 0;
-	margin: 0;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 50px;
+	text-transform: uppercase;
+
+	
+
 }
 
 
 .contactFormPageForm{
 	width: 100%;
 	margin: 0 auto;
+	padding: 50px;
+	color: white;	
 	text-align: center;
+	background-color: $darkgrey;
+	background-image: url(img/src/maphand.jpg);	
+	background-attachment: fixed;
+	background-size: cover;
+	background-height: 100vh;
+
+
+
 		h1{
 			font-size: 40px;
 			text-transform: uppercase;
+			letter-spacing: 5px;
 		}
+
+}
+
+.contactFormPlace{
+	width: 100%;
+	padding-top: 20px;
+
+}
+
+
+.moreContactPage{
+	background-color: white;
+	display: flex;
+	margin: auto;
+	padding: 50px 0 20px 0;
+	flex: 1 0 auto;
+	align-items: stretch;
+	width: 100%;
+	flex-wrap:wrap;
+	letter-spacing: 2px;
+
+
+		h3{
+			letter-spacing: 5px;
+		}
+		iframe{
+			
+			-webkit-box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
+	  	-moz-box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
+	  	box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
+
+		}
+
+
+}
+
+.addressContactPage, .hoursContactPage,
+.phoneContactPage{
+	width: 30%;
+	flex: 1 0 auto;
+	justify-content: space-between;
+
+}
+
+
+
+
+
+input[type=submit]{
+			@include fzwFormButton;
+
+
+		}
+
+input[type=submit]:hover{
+	color:ghostwhite;
+	border:1px solid white;
+	font-weight: 400;
+}
+
+		.contactMap{
+			display: flex;
+		flex: 1 0 auto;
+		flex-flow:column;
+
+
+		}
+
+.contactMapFrame{
+	// display: flex;
+	// flex: 1 0 auto;
+	// margin: auto;
+	// margin:0 auto;	
+
+
+		iframe{
+
+			-webkit-box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
+	  	-moz-box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
+	  	box-shadow: 1px 4px 8px 4px rgba(0,0,0,0.26);
+
+		}
+	
+}
+
+.socialContacts{
+	display: flex;
+	flex-flow:column;
+	flex: 1 0 auto;
+		i{
+			font-size: 50px;
+			padding: 10px;
+		}
+
+		i:hover{
+			color:$blue;
+		}
+
+}
+
+.socialContactsIcons{
+	display:flex;
+	flex: 1 0 auto;
+	margin: auto;
 }
