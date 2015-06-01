@@ -9,49 +9,44 @@ footer {
   width: 100%;
   background: $darkgrey;
   color: whitesmoke;
-
-  
 }
 
-.flexContainer{
+.flexContainer {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  
-
-
 }
 
 
 .copyright,
-.socialLogos{
+.socialLogos {
   flex: 1 0 auto;
-
-
+  padding: 0 10px;
 }
 
-.socialLogos{
+.socialLogos {
   list-style: none;
   padding:0;
   display: flex;
   flex-direction: row-reverse;
   align-items:center;
   font-size: 25px;
-  margin:auto;
-
+  margin: auto;
 
 }
 
-.socialLogos i{
-  padding: 0 5px;
+.socialLogos i {
+  padding: 0 10px;
   color: whitesmoke;
+<<<<<<< HEAD
   transition: all .5s;
 
+=======
+>>>>>>> 40fe061fea99387b37ece4afb44379fdb2a2d7a0
 }
 
-.socialLogos i:hover{
+.socialLogos i:hover {
   color: #8FCAFC;
   list-style-type: none;
-
 }
 

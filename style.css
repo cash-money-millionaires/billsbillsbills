@@ -383,7 +383,7 @@ p.form-allowed-tags, .nocomments {
     padding: 0; } }
 
 .category {
-  font-family: "Lora", serif; }
+  font-family: "Roboto Condensed", sans-serif; }
 
 .category h2, .cate-title {
   text-transform: uppercase;
@@ -407,7 +407,7 @@ p.form-allowed-tags, .nocomments {
   width: 100%; }
 
 .category .content .post {
-  background: #999D9E;
+  background: #20657C;
   width: 40%;
   margin: 10px;
   padding: 0 20px; }
@@ -420,13 +420,19 @@ p.form-allowed-tags, .nocomments {
     margin-top: 15px;
     color: #29313D; }
   .category .content .post p {
-    margin-top: 10px; }
+    margin-top: 10px;
+    color: white; }
 
 .contactMain {
   width: 100%;
   margin: 0 auto;
   text-align: center;
+<<<<<<< HEAD
   text-transform: uppercase; }
+=======
+  text-transform: uppercase;
+  background: #999D9E; }
+>>>>>>> 40fe061fea99387b37ece4afb44379fdb2a2d7a0
 
 .contactFormPageForm {
   width: 100%;
@@ -791,7 +797,8 @@ img.alignright {
                    Default Styling
    ========================================================================== */
 body {
-  color: #333; }
+  color: #333;
+  font-family: "Roboto Condensed", sans-serif; }
 
 .container {
   max-width: 1200px;
@@ -851,7 +858,7 @@ pre {
   border: 1px solid #ccc; }
 
 .category {
-  font-family: "Lora", serif; }
+  font-family: "Roboto Condensed", sans-serif; }
 
 .category h2, .cate-title {
   text-transform: uppercase;
@@ -875,7 +882,7 @@ pre {
   width: 100%; }
 
 .category .content .post {
-  background: #999D9E;
+  background: #20657C;
   width: 40%;
   margin: 10px;
   padding: 0 20px; }
@@ -888,12 +895,13 @@ pre {
     margin-top: 15px;
     color: #29313D; }
   .category .content .post p {
-    margin-top: 10px; }
+    margin-top: 10px;
+    color: white; }
 
 .blogContainer {
   width: 100%;
   background-color: ghostwhite;
-  font-family: 'Lora', serif;
+  font-family: "Roboto Condensed", sans-serif;
   margin: 0 auto;
   text-align: center;
   padding: 10px;
@@ -913,7 +921,7 @@ pre {
     border: 3px solid black;
     width: 80%;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 80px;
     background-color: whitesmoke;
     padding: 20px;
     border-radius: 5px;
@@ -949,7 +957,8 @@ footer {
   -webkit-box-flex: 1;
   -webkit-flex: 1 0 auto;
       -ms-flex: 1 0 auto;
-          flex: 1 0 auto; }
+          flex: 1 0 auto;
+  padding: 0 10px; }
 
 .socialLogos {
   list-style: none;
@@ -971,10 +980,15 @@ footer {
   margin: auto; }
 
 .socialLogos i {
+<<<<<<< HEAD
   padding: 0 5px;
   color: whitesmoke;
   -webkit-transition: all 0.5s;
           transition: all 0.5s; }
+=======
+  padding: 0 10px;
+  color: whitesmoke; }
+>>>>>>> 40fe061fea99387b37ece4afb44379fdb2a2d7a0
 
 .socialLogos i:hover {
   color: #8FCAFC;
@@ -1027,6 +1041,8 @@ ul.menu li {
   display: inline;
   margin-right: 20px;
   position: relative; }
+  ul.menu li a:hover {
+    border-bottom: 5px solid #8FCAFC; }
 
 ul.menu li a {
   padding-bottom: 7px;
@@ -1139,8 +1155,17 @@ ul.menu li:hover ul.sub-menu {
     font-weight: 700;
     padding: 20px; }
   .nestedpage p {
+<<<<<<< HEAD
     font-family: "Lora", serif;
     padding: 10px; }
+=======
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400; }
+  .nestedpage p:last-child {
+    margin-bottom: 40px; }
+>>>>>>> 40fe061fea99387b37ece4afb44379fdb2a2d7a0
 
 /* =============================================================================
                    Sidebar

@@ -34,7 +34,10 @@ ul.menu {
 ul.menu li {
 	 display: inline;
 	 margin-right: 20px;
-	 position: relative; 
+	 position: relative;
+	 a:hover {
+	 	border-bottom: 5px solid $blue;
+	 } 
 }
 
 ul.menu li a {
