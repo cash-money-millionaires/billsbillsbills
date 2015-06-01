@@ -2,11 +2,13 @@
 /* =============================================================================
                    Navigation
    ========================================================================== */
+
+
 header .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 20px auto;
+	margin: 10px auto;
 	h1 {
 		font-family: $robo;
 		a {
@@ -19,7 +21,7 @@ header .container {
 	}
 }
 ul.menu {
-	@include fzw (20px, 700);
+	@include fzw (16px, 700);
 	letter-spacing: 2px;
 	font-family: $robo;
 	margin: 0;
@@ -75,6 +77,10 @@ ul.menu li:hover ul.sub-menu {
 #thsp-sticky-header {
 	box-shadow: 0px 0px 10px 0px #ddd;
 }
+#thsp-sticky-header-inner {
+	max-width: 100%;
+}
+
 #thsp-sticky-header-title {
 	margin-top: 10px;
 

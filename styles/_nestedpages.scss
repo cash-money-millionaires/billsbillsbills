@@ -1,0 +1,13 @@
+.nestedpage {
+	width: 70%;
+	margin: 0 auto;
+	h2 {
+		@include UpCen(2px);
+		@include fzw(40px, 700);
+		padding: 20px;
+	}
+	p {
+		font-family: $lora;
+		padding: 10px;
+	}
+}

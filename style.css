@@ -245,6 +245,8 @@ p.form-allowed-tags, .nocomments {
       -ms-flex-pack: distribute;
           justify-content: space-around;
   background-color: #999D9E;
+  background-image: url(img/src/footer_lodyas.png);
+  background-attachment: fixed;
   padding: 50px; }
   .blogFrontWrapper h2 {
     font-size: 40px;
@@ -303,7 +305,6 @@ p.form-allowed-tags, .nocomments {
   .contactForm textarea {
     margin: 5px; }
   .contactForm input[type=submit] {
-    background-color: rgba(126, 128, 129, 0.85);
     font-size: 20px;
     font-weight: 700;
     font-family: "Roboto Condensed", sans-serif;
@@ -353,6 +354,34 @@ p.form-allowed-tags, .nocomments {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
+/* Landscape phone to portrait tablet */
+@media (max-width: 580px) {
+  .frontButtons {
+    margin: auto;
+    -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    padding: 20px; }
+  .frontButtons .personalButton,
+  .frontButtons .bizButton {
+    padding: 30px; }
+  .moreContact {
+    margin: auto;
+    -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column; }
+  .address, .phone {
+    margin: auto;
+    width: 100%;
+    padding: 20px; } }
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .contactFormFront {
+    width: 100%;
+    margin: auto;
+    padding: 0; } }
+
 .category {
   font-family: "Lora", serif; }
 
@@ -397,7 +426,6 @@ p.form-allowed-tags, .nocomments {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  padding-top: 50px;
   text-transform: uppercase; }
 
 .contactFormPageForm {
@@ -507,9 +535,12 @@ input[type=submit]:hover {
           flex: 1 0 auto; }
   .socialContacts i {
     font-size: 50px;
-    padding: 10px; }
+    padding: 10px;
+    -webkit-transition: all 0.3s;
+            transition: all 0.3s; }
   .socialContacts i:hover {
-    color: #8FCAFC; }
+    color: #8FCAFC;
+    font-size: 55px; }
 
 .socialContactsIcons {
   display: -webkit-box;
@@ -521,6 +552,87 @@ input[type=submit]:hover {
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
   margin: auto; }
+
+/* Portrait tablet and small desktops */
+@media (max-width: 965px) {
+  .moreContactPage {
+    background-color: white;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    margin-left: 300px;
+    -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    width: 100%;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin: auto; }
+  .addressContactPage, .hoursContactPage,
+  .phoneContactPage {
+    width: 100%;
+    padding: 40px 0;
+    margin: auto; }
+  .socialContacts {
+    text-align: left;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    margin: auto; }
+  .socialContactsIcons {
+    text-align: justify;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    margin: auto; } }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  .moreContactPage {
+    width: 45%;
+    margin: auto; }
+  iframe {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    text-align: left; } }
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .moreContactPage {
+    width: 100%;
+    margin: auto; }
+  .socialContactsIcons {
+    margin: auto; }
+  .socialContactsIcons h3 {
+    margin-left: 20px; }
+  .hoursContactPage {
+    width: 100%;
+    margin: auto; }
+  .phoneContactPage {
+    width: 100%;
+    margin: auto; } }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
@@ -860,7 +972,9 @@ footer {
 
 .socialLogos i {
   padding: 0 5px;
-  color: whitesmoke; }
+  color: whitesmoke;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s; }
 
 .socialLogos i:hover {
   color: #8FCAFC;
@@ -882,7 +996,7 @@ header .container {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 20px auto; }
+  margin: 10px auto; }
   header .container h1 {
     font-family: "Roboto Condensed", sans-serif; }
     header .container h1 a {
@@ -893,7 +1007,7 @@ header .container {
       text-transform: uppercase; }
 
 ul.menu {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 2px;
   font-family: "Roboto Condensed", sans-serif;
@@ -947,6 +1061,9 @@ ul.menu li:hover ul.sub-menu {
 #thsp-sticky-header {
   box-shadow: 0px 0px 10px 0px #ddd; }
 
+#thsp-sticky-header-inner {
+  max-width: 100%; }
+
 #thsp-sticky-header-title {
   margin-top: 10px; }
   #thsp-sticky-header-title a {
@@ -974,7 +1091,8 @@ ul.menu li:hover ul.sub-menu {
   .reso-wrapper p {
     width: 60%;
     margin: 20px auto;
-    padding: 10px; }
+    padding: 10px;
+    font-family: "Roboto Condensed", sans-serif; }
 
 .reso-pages-wrap {
   display: -webkit-box;
@@ -1003,10 +1121,26 @@ ul.menu li:hover ul.sub-menu {
       .reso-pages-wrap .reso-pages h2 a {
         color: #29313D; }
     .reso-pages-wrap .reso-pages p {
-      font-family: "Lora", serif; }
+      font-family: "Roboto Condensed", sans-serif; }
     .reso-pages-wrap .reso-pages img {
       display: block;
       padding-bottom: 10px; }
+
+.nestedpage {
+  width: 70%;
+  margin: 0 auto; }
+  .nestedpage h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px auto;
+    letter-spacing: 2px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px; }
+  .nestedpage p {
+    font-family: "Lora", serif;
+    padding: 10px; }
 
 /* =============================================================================
                    Sidebar
@@ -1021,5 +1155,57 @@ ul.menu li:hover ul.sub-menu {
 
 .sidebar ul li {
   list-style: none; }
+
+.singleWrapper {
+  width: 100%;
+  background-image: url(img/src/desk2.jpg);
+  background-attachment: fixed; }
+
+.singleContent {
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: rgba(134, 121, 121, 0.9); }
+
+.singleComments {
+  width: 75%;
+  margin: 0 auto; }
+  .singleComments #respond .form-submit {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0 10px 0; }
+
+.authorContainer {
+  background-color: white;
+  width: 100%;
+  background-position: fixed;
+  background-image: url(img/src/desk2.jpg);
+  background-attachment: fixed; }
+
+.authorContent {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: "Roboto Condensed", sans-serif; }
+  .authorContent h1 {
+    color: ghostwhite; }
+  .authorContent a {
+    color: ghostwhite; }
+  .authorContent article {
+    border: 3px solid black;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 8px 4px rgba(0, 0, 0, 0.26); }
+    .authorContent article a {
+      color: black; }
+
+.alignleft {
+  visibility: hidden; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-<div class="main">
-  <div class="container">
-    <div class="content">
+<div class="Main">
+  <div class="Container">
+    <div class="Content">
 
       <?php if ( have_posts() ) the_post(); ?>
 

@@ -69,9 +69,10 @@ Y" time_format="H:i" no_thumbnails="show"]'); ?>
     <div class="contactForm">
 
     <h1>Contact Us</h1>
+    <div class="contactformFront">
 
      <?php echo do_shortcode( '[contact-form-7 id="4" title="Contact form 1"]' ); ?>
-
+</div>
 
 <div class="moreContact">
 <div class="address">
